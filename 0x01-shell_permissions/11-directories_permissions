@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R +x /holbertonschool-system_engineering-devops   
+chmod -R +x */dir   
