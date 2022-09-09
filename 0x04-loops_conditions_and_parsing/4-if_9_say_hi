@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # using while loop with an if statement for conditional statement
 n=1
-while [ $n -gt 10 ]
+while [ $n -le 10 ]
 do
 	if [ $n = 9 ]
 	then
