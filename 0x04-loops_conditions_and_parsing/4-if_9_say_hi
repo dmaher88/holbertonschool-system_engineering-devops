@@ -3,11 +3,11 @@
 n=1
 while [ $n -gt 10 ]
 do
-	echo "Best School"
-	(( n++ ))
-	if [ $n == 9 ]
+	if [ $n = 9 ]
 	then
-	echo "Hi"
+		echo "Hi"
+	else
+		echo "Best School"
 	fi
-	echo "Best School"
+	(( n++ ))
 done
