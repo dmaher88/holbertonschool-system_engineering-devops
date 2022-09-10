@@ -3,20 +3,20 @@
 file="school"
 if [ -e $file ]
 then
-	echo "$file file exists"
+	printf "school file exists"
 
 	if [ -s $file ]
 	then
-		echo "$file file is not empty"
+		printf "school file is not empty"
 	else
-		echo "$file file is empty"
+		printf "school file is empty"
 	fi
 	
 	if [ -f $file ]
 	then
-		echo "$file file is a regular file"
+		printf "school file is a regular file"
 	fi
 else
-	echo "$file file does not exist"
+	printf "school file does not exist"
 fi
 
