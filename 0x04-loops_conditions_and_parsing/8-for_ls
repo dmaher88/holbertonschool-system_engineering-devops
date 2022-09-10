@@ -2,5 +2,5 @@
 # using a for loop to list files in current directory"
 for i in *
 do
-	echo "$i" | cut -f 1- -d '-'
+	echo "$i" | cut -f 2- -d '-'
 done
