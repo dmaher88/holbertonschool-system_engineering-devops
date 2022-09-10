@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# using a for loop to list files in current directory"
+for i in *
+do
+	echo "$i" | cut -f 1- -d '-'
+done
