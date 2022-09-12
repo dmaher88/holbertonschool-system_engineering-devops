@@ -15,8 +15,6 @@ then
 	if [ -f $file ]
 	then
 		printf "school file is a regular file\n"
-	else
-		printf "(nothing)\n"
 	fi
 else
 	printf "school file does not exist\n"
