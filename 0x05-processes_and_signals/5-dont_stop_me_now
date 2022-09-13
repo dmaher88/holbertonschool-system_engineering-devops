@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # killing a process
-kill -9 $(pidof 4-to_infity_and_beyond)
+kill -9 "$(pidof ./4-to_infity_and_beyond)"
 
