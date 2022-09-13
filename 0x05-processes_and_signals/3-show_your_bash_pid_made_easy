@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# showing bash PID without using ps
+ls /proc/*bash*
