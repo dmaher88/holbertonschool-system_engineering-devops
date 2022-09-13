@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# - stopping a process without using kill or killall
+pkill "$(pgrep -f beyond)"
+
