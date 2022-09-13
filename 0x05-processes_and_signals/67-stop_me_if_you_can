@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # - stopping a process without using kill or killall
-pkill -f beyond
+pkill -f highlander
 
