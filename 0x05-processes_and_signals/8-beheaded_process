@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# - killing the highlander...there can be only one.
+kill -9 "$(pgrep -f highlander)"
+
